@@ -1,0 +1,2 @@
+2026-06-09 18:27:49 [http-nio-8080-exec-2] INFO  c.example.bsep.service.AuthService - Login attempt: email=admin@bsep.com
+2026-06-09 18:27:49 [http-nio-8080-exec-2] INFO  c.example.bsep.service.AuthService - Login successful: email=admin@bsep.com
