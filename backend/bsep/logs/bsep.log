@@ -3,3 +3,10 @@
 2026-06-09 18:26:47 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
 2026-06-09 18:26:49 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2026-06-09 18:26:49 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 4.882 seconds (process running for 5.807)
+2026-06-09 18:35:42 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55s283ms).
+2026-06-09 19:03:00 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 48459 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 19:03:00 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 19:03:02 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 19:03:04 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 19:03:05 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 4.828 seconds (process running for 5.722)
+2026-06-09 19:09:16 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m13s951ms).
