@@ -1,0 +1,36 @@
+# Maven
+target/
+*.jar
+*.war
+*.class
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+
+# Keystores - ne commitovati privatne kljuceve
+backend/bsep/src/main/resources/keystores/*.p12
+backend/bsep/src/main/resources/keystores/*.jks
+
+# Logs
+logs/
+*.log
+
+# Spring Boot
+backend/bsep/src/main/resources/application-local.properties
+
+# Node / Vue
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# OS
+.DS_Store
+Thumbs.db
