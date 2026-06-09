@@ -2,3 +2,8 @@
 2026-06-09 18:27:49 [http-nio-8080-exec-2] INFO  c.example.bsep.service.AuthService - Login successful: email=admin@bsep.com
 2026-06-09 19:03:23 [http-nio-8080-exec-2] INFO  c.example.bsep.service.AuthService - Login attempt: email=admin@bsep.com
 2026-06-09 19:03:24 [http-nio-8080-exec-2] INFO  c.example.bsep.service.AuthService - Login successful: email=admin@bsep.com
+2026-06-09 22:21:15 [https-jsse-nio-8443-exec-3] INFO  c.example.bsep.service.AuthService - Login attempt: email=admin@bsep.com
+2026-06-09 22:21:15 [https-jsse-nio-8443-exec-3] INFO  c.example.bsep.service.AuthService - Login successful: email=admin@bsep.com
+2026-06-09 22:30:16 [https-jsse-nio-8443-exec-9] INFO  c.example.bsep.service.AuthService - Session revoked: jti=48a61726-0362-4f39-871c-9602693d4870, email=admin@bsep.com
+2026-06-09 22:37:51 [https-jsse-nio-8443-exec-10] INFO  c.example.bsep.service.AuthService - Login attempt: email=admin@bsep.com
+2026-06-09 22:37:51 [https-jsse-nio-8443-exec-10] INFO  c.example.bsep.service.AuthService - Login successful: email=admin@bsep.com

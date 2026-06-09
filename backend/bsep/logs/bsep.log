@@ -10,3 +10,108 @@
 2026-06-09 19:03:04 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2026-06-09 19:03:05 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 4.828 seconds (process running for 5.722)
 2026-06-09 19:09:16 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m13s951ms).
+2026-06-09 19:16:36 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m50s112ms).
+2026-06-09 19:24:26 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m19s247ms).
+2026-06-09 19:31:41 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 49067 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 19:31:41 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 19:31:43 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 19:31:45 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 19:31:45 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 4.75 seconds (process running for 5.59)
+2026-06-09 19:32:38 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 49129 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 19:32:38 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 19:32:39 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 19:32:41 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 19:32:41 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 4.551 seconds (process running for 5.414)
+2026-06-09 20:07:52 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 49760 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 20:07:52 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 20:07:54 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 20:07:56 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 20:07:56 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 4.724 seconds (process running for 5.705)
+2026-06-09 20:09:12 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 49810 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 20:09:12 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 20:09:13 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 20:09:15 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 20:09:16 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 4.983 seconds (process running for 5.756)
+2026-06-09 20:17:11 [https-jsse-nio-8443-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2026-06-09 20:17:12 [https-jsse-nio-8443-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2026-06-09 20:17:33 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 50011 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 20:17:33 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 20:17:35 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 20:17:37 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 20:17:37 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 4.628 seconds (process running for 5.396)
+2026-06-09 20:19:05 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 50495 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 20:19:05 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 20:19:06 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 20:19:08 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 20:19:09 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 4.69 seconds (process running for 5.455)
+2026-06-09 20:20:25 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 50559 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 20:20:25 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 20:20:27 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 20:20:28 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 20:20:29 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 4.777 seconds (process running for 5.547)
+2026-06-09 20:29:45 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 50667 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 20:29:45 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 20:29:47 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 20:29:49 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 20:29:49 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 4.566 seconds (process running for 5.345)
+2026-06-09 20:34:25 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m38s119ms).
+2026-06-09 20:50:10 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m15s93ms).
+2026-06-09 21:42:27 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m46s492ms).
+2026-06-09 22:09:06 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 51385 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 22:09:06 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 22:09:08 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2026-06-09 22:09:08 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:622)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.example.bsep.BsepApplication.main(BsepApplication.java:10)
+Caused by: java.lang.IllegalStateException: Unable to create key store: Could not load store from 'classpath:https-keystore.p12'
+	at org.springframework.boot.ssl.jks.JksSslStoreBundle.createKeyStore(JksSslStoreBundle.java:112)
+	at org.springframework.boot.ssl.jks.JksSslStoreBundle.lambda$new$0(JksSslStoreBundle.java:75)
+	at org.springframework.util.function.SingletonSupplier.get(SingletonSupplier.java:106)
+	at org.springframework.boot.ssl.jks.JksSslStoreBundle.getKeyStore(JksSslStoreBundle.java:81)
+	at org.springframework.boot.web.server.WebServerSslBundle.createKeyStore(WebServerSslBundle.java:157)
+	at org.springframework.boot.web.server.WebServerSslBundle.createStoreBundle(WebServerSslBundle.java:147)
+	at org.springframework.boot.web.server.WebServerSslBundle.get(WebServerSslBundle.java:142)
+	at org.springframework.boot.web.server.AbstractConfigurableWebServerFactory.getSslBundle(AbstractConfigurableWebServerFactory.java:198)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.customizeSsl(TomcatServletWebServerFactory.java:384)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.customizeConnector(TomcatServletWebServerFactory.java:360)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:209)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	... 8 common frames omitted
+Caused by: java.lang.IllegalStateException: Could not load store from 'classpath:https-keystore.p12'
+	at org.springframework.boot.ssl.jks.JksSslStoreBundle.loadKeyStore(JksSslStoreBundle.java:140)
+	at org.springframework.boot.ssl.jks.JksSslStoreBundle.createKeyStore(JksSslStoreBundle.java:107)
+	... 20 common frames omitted
+Caused by: java.io.FileNotFoundException: class path resource [https-keystore.p12] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:215)
+	at org.springframework.boot.ssl.jks.JksSslStoreBundle.loadKeyStore(JksSslStoreBundle.java:135)
+	... 21 common frames omitted
+2026-06-09 22:13:04 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 51432 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 22:13:04 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 22:13:06 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 22:13:07 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 22:13:08 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 4.973 seconds (process running for 5.746)
+2026-06-09 22:13:29 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 51465 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 22:13:29 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 22:13:31 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 22:13:32 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 22:13:33 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 4.431 seconds (process running for 5.196)
+2026-06-09 22:14:36 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 51500 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 22:14:36 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 22:14:38 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 22:14:40 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 22:14:40 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 4.443 seconds (process running for 5.192)
+2026-06-09 22:17:01 [https-jsse-nio-8443-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2026-06-09 22:34:18 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 52457 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 22:34:18 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 22:34:20 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 22:34:22 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 22:34:23 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 5.006 seconds (process running for 5.808)
