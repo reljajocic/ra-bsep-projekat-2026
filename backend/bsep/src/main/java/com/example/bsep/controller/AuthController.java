@@ -24,10 +24,11 @@ public class AuthController {
                                              HttpServletRequest request) {
         String email = body.get("email");
         String password = body.get("password");
+        String totpCode = body.get("totpCode");
         String ip = request.getRemoteAddr();
         String userAgent = request.getHeader("User-Agent");
 
-        JwtResponse response = authService.login(email, password, ip, userAgent);
+        JwtResponse response = authService.login(email, password, totpCode, ip, userAgent);
         return ResponseEntity.ok(response);
     }
 
@@ -41,5 +42,30 @@ public class AuthController {
                                               @AuthenticationPrincipal String email) {
         authService.revokeSession(jti, email);
         return ResponseEntity.noContent().build();
+    }
+
+    @PostMapping("/2fa/setup")
+    public ResponseEntity<Map<String, String>> setupTotp(@AuthenticationPrincipal String email) throws Exception {
+        String qrCode = authService.setupTotp(email);
+        return ResponseEntity.ok(Map.of("qrCode", qrCode));
+    }
+
+    @PostMapping("/2fa/confirm")
+    public ResponseEntity<Void> confirmTotp(@RequestBody Map<String, String> body,
+                                            @AuthenticationPrincipal String email) {
+        authService.confirmTotp(email, body.get("code"));
+        return ResponseEntity.noContent().build();
+    }
+
+    @ExceptionHandler(RuntimeException.class)
+    public ResponseEntity<Map<String, String>> handleAuthException(RuntimeException e) {
+        String msg = e.getMessage();
+        return ResponseEntity.status(403).body(Map.of("error", msg != null ? msg : "Authentication failed"));
+    }
+
+    @GetMapping("/2fa/status")
+    public ResponseEntity<Map<String, Boolean>> totpStatus(@AuthenticationPrincipal String email) {
+        boolean enabled = authService.isTotpEnabled(email);
+        return ResponseEntity.ok(Map.of("enabled", enabled));
     }
 }

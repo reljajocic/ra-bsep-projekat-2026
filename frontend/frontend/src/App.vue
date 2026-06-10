@@ -6,6 +6,7 @@
         <router-link to="/certificates">Sertifikati</router-link>
         <router-link to="/passwords">Lozinke</router-link>
         <router-link to="/sessions">Sesije</router-link>
+        <router-link to="/security">Security</router-link>
       </div>
       <button @click="logout" class="nav-logout">Odjavi se</button>
     </nav>

@@ -6,6 +6,7 @@ import CertificatesView from '../views/CertificatesView.vue'
 import CreateCertificateView from '../views/CreateCertificateView.vue'
 import PasswordManagerView from '../views/PasswordManagerView.vue'
 import SessionsView from '../views/SessionsView.vue'
+import SecurityView from '../views/SecurityView.vue'
 
 const routes = [
   { path: '/', redirect: '/certificates' },
@@ -13,7 +14,8 @@ const routes = [
   { path: '/certificates', component: CertificatesView },
   { path: '/certificates/new', component: CreateCertificateView },
   { path: '/passwords', component: PasswordManagerView },
-  { path: '/sessions', component: SessionsView }
+  { path: '/sessions', component: SessionsView },
+  { path: '/security', component: SecurityView}
 ]
 
 const router = createRouter({

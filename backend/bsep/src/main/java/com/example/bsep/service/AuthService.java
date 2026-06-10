@@ -27,6 +27,7 @@ public class AuthService {
     private final JwtUtil jwtUtil;
 
     private static final Logger log = LoggerFactory.getLogger(AuthService.class);
+    private final TotpService totpService;
 
     // Kreira inicijalnog admina ako ne postoji u bazi
     @PostConstruct
@@ -45,7 +46,7 @@ public class AuthService {
         }
     }
 
-    public JwtResponse login(String email, String password, String ipAddress, String userAgent) {
+    public JwtResponse login(String email, String password, String totpCode, String ipAddress, String userAgent) {
         log.info("Login attempt: email={}", email);
 
         User user = userRepository.findByEmail(email)
@@ -62,6 +63,18 @@ public class AuthService {
         if (!passwordEncoder.matches(password, user.getPassword())) {
             log.warn("Login failed - wrong password: email={}", email);
             throw new RuntimeException("Invalid credentials");
+        }
+
+        // Provera 2FA ako je ukljucen
+        if (user.isTotpEnabled()) {
+            if (totpCode == null || totpCode.isBlank()) {
+                log.info("2FA required: email={}", email);
+                throw new RuntimeException("2FA_REQUIRED");
+            }
+            if (!totpService.verifyCode(user.getTotpSecret(), totpCode)) {
+                log.warn("Login failed - invalid 2FA code: email={}", email);
+                throw new RuntimeException("Invalid 2FA code");
+            }
         }
 
         String token = jwtUtil.generateToken(email);
@@ -98,5 +111,38 @@ public class AuthService {
         token.setRevoked(true);
         sessionTokenRepository.save(token);
         log.info("Session revoked: jti={}, email={}", jti, email);
+    }
+
+    // Pokrece setup 2FA - generise secret i vraca QR kod
+    public String setupTotp(String email) throws Exception {
+        User user = userRepository.findByEmail(email)
+                .orElseThrow(() -> new RuntimeException("User not found"));
+
+        String secret = totpService.generateSecret();
+        user.setTotpSecret(secret);
+        userRepository.save(user);
+
+        log.info("2FA setup initiated: email={}", email);
+        return totpService.generateQrCodeImageUri(secret, email);
+    }
+
+    // Potvrdjuje setup - korisnik unese prvi kod da dokaze da je skenirao QR
+    public void confirmTotp(String email, String code) {
+        User user = userRepository.findByEmail(email)
+                .orElseThrow(() -> new RuntimeException("User not found"));
+
+        if (!totpService.verifyCode(user.getTotpSecret(), code)) {
+            throw new RuntimeException("Invalid 2FA code");
+        }
+
+        user.setTotpEnabled(true);
+        userRepository.save(user);
+        log.info("2FA enabled: email={}", email);
+    }
+
+    public boolean isTotpEnabled(String email) {
+        User user = userRepository.findByEmail(email)
+                .orElseThrow(() -> new RuntimeException("User not found"));
+        return user.isTotpEnabled();
     }
 }

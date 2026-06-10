@@ -31,4 +31,8 @@ public class User {
     private Role role;
 
     private boolean enabled;
+
+    private String totpSecret;
+
+    private boolean totpEnabled = false;
 }

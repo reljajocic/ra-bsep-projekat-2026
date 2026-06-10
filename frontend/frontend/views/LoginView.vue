@@ -5,12 +5,20 @@
       <form @submit.prevent="handleLogin">
         <div class="form-group">
           <label>Email</label>
-          <input v-model="email" type="email" placeholder="admin@bsep.com" required />
+          <input v-model="email" type="email" placeholder="admin@bsep.com" required :disabled="needsTotp" />
         </div>
         <div class="form-group">
           <label>Lozinka</label>
-          <input v-model="password" type="password" placeholder="Lozinka" required />
+          <input v-model="password" type="password" placeholder="Lozinka" required :disabled="needsTotp" />
         </div>
+
+        <!-- Dodatni korak za 2FA kod -->
+        <div class="form-group" v-if="needsTotp">
+          <label>2FA kod</label>
+          <input v-model="totpCode" type="text" placeholder="6-cifreni kod" maxlength="6" autofocus />
+          <p class="hint">Unesi kod iz authenticator aplikacije</p>
+        </div>
+
         <p v-if="error" class="error">{{ error }}</p>
         <button type="submit" :disabled="loading">
           {{ loading ? 'Prijava...' : 'Prijavi se' }}
@@ -28,6 +36,8 @@ export default {
     return {
       email: '',
       password: '',
+      totpCode: '',
+      needsTotp: false,
       error: '',
       loading: false
     }
@@ -37,10 +47,19 @@ export default {
       this.error = ''
       this.loading = true
       try {
-        await authService.login(this.email, this.password)
+        await authService.login(this.email, this.password, this.totpCode || null)
         this.$router.push('/certificates')
       } catch (e) {
-        this.error = 'Pogrešan email ili lozinka'
+        const message = e.response?.data?.error || ''
+        if (message.includes('2FA_REQUIRED')) {
+          this.needsTotp = true
+          this.error = ''
+        } else if (message.includes('2FA')) {
+          this.error = 'Pogrešan 2FA kod'
+        } else {
+          this.error = 'Pogrešan email ili lozinka'
+          this.needsTotp = false
+        }
       } finally {
         this.loading = false
       }
@@ -84,6 +103,9 @@ input {
   border-radius: 4px;
   box-sizing: border-box;
 }
+input:disabled {
+  background: #f0f0f0;
+}
 button {
   width: 100%;
   padding: 0.7rem;
@@ -100,5 +122,10 @@ button:disabled {
 .error {
   color: red;
   font-size: 0.9rem;
+}
+.hint {
+  font-size: 0.8rem;
+  color: #888;
+  margin-top: 0.3rem;
 }
 </style>
