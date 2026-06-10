@@ -14,22 +14,24 @@ out/
 # VS Code
 .vscode/
 
-# Keystores - ne commitovati privatne kljuceve
-backend/bsep/src/main/resources/keystores/*.p12
-backend/bsep/src/main/resources/keystores/*.jks
+# Keystores i sertifikati - ne commitovati privatne kljuceve
+*.p12
+*.jks
+*.pem
+*.key
 
 # Logs
 logs/
 *.log
 
 # Spring Boot
-backend/bsep/src/main/resources/application-local.properties
+application-local.properties
 
 # Node / Vue
-frontend/node_modules/
-frontend/dist/
-frontend/.env
-frontend/.env.local
+node_modules/
+dist/
+.env
+.env.local
 
 # OS
 .DS_Store
