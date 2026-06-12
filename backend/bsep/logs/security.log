@@ -1,23 +1,53 @@
-2026-06-09 18:27:49 [http-nio-8080-exec-2] INFO  c.example.bsep.service.AuthService - Login attempt: email=admin@bsep.com
-2026-06-09 18:27:49 [http-nio-8080-exec-2] INFO  c.example.bsep.service.AuthService - Login successful: email=admin@bsep.com
-2026-06-09 19:03:23 [http-nio-8080-exec-2] INFO  c.example.bsep.service.AuthService - Login attempt: email=admin@bsep.com
-2026-06-09 19:03:24 [http-nio-8080-exec-2] INFO  c.example.bsep.service.AuthService - Login successful: email=admin@bsep.com
-2026-06-09 22:21:15 [https-jsse-nio-8443-exec-3] INFO  c.example.bsep.service.AuthService - Login attempt: email=admin@bsep.com
-2026-06-09 22:21:15 [https-jsse-nio-8443-exec-3] INFO  c.example.bsep.service.AuthService - Login successful: email=admin@bsep.com
-2026-06-09 22:30:16 [https-jsse-nio-8443-exec-9] INFO  c.example.bsep.service.AuthService - Session revoked: jti=48a61726-0362-4f39-871c-9602693d4870, email=admin@bsep.com
-2026-06-09 22:37:51 [https-jsse-nio-8443-exec-10] INFO  c.example.bsep.service.AuthService - Login attempt: email=admin@bsep.com
-2026-06-09 22:37:51 [https-jsse-nio-8443-exec-10] INFO  c.example.bsep.service.AuthService - Login successful: email=admin@bsep.com
-2026-06-10 14:51:41 [https-jsse-nio-8443-exec-10] INFO  c.example.bsep.service.AuthService - Login attempt: email=admin@bsep.com
-2026-06-10 14:51:41 [https-jsse-nio-8443-exec-10] INFO  c.example.bsep.service.AuthService - 2FA required: email=admin@bsep.com
-2026-06-10 14:51:51 [https-jsse-nio-8443-exec-2] INFO  c.example.bsep.service.AuthService - Login attempt: email=admin@bsep.com
-2026-06-10 14:51:52 [https-jsse-nio-8443-exec-2] WARN  c.example.bsep.service.AuthService - Login failed - invalid 2FA code: email=admin@bsep.com
-2026-06-10 14:51:57 [https-jsse-nio-8443-exec-5] INFO  c.example.bsep.service.AuthService - Login attempt: email=admin@bsep.com
-2026-06-10 14:51:57 [https-jsse-nio-8443-exec-5] WARN  c.example.bsep.service.AuthService - Login failed - invalid 2FA code: email=admin@bsep.com
-2026-06-10 14:52:07 [https-jsse-nio-8443-exec-7] INFO  c.example.bsep.service.AuthService - Login attempt: email=admin@bsep.com
-2026-06-10 14:52:07 [https-jsse-nio-8443-exec-7] INFO  c.example.bsep.service.AuthService - Login successful: email=admin@bsep.com
-2026-06-10 14:56:25 [https-jsse-nio-8443-exec-9] INFO  c.example.bsep.service.AuthService - Login attempt: email=admin@bsep.com
-2026-06-10 14:56:25 [https-jsse-nio-8443-exec-9] INFO  c.example.bsep.service.AuthService - 2FA required: email=admin@bsep.com
-2026-06-10 14:56:35 [https-jsse-nio-8443-exec-1] INFO  c.example.bsep.service.AuthService - Login attempt: email=admin@bsep.com
-2026-06-10 14:56:36 [https-jsse-nio-8443-exec-1] INFO  c.example.bsep.service.AuthService - Login successful: email=admin@bsep.com
-2026-06-10 14:57:11 [https-jsse-nio-8443-exec-8] INFO  c.e.bsep.service.CertificateService - Issuing certificate: type=ROOT, CN=My Test
-2026-06-10 14:57:13 [https-jsse-nio-8443-exec-8] INFO  c.e.bsep.service.CertificateService - Certificate issued: id=5, serialNumber=866383324791860881698169595644052958624114490585, type=ROOT
+2026-06-12 11:04:32 [https-jsse-nio-8443-exec-6] INFO  c.example.bsep.service.AuthService - Login attempt: email=admin@bsep.com
+2026-06-12 11:04:33 [https-jsse-nio-8443-exec-6] INFO  c.example.bsep.service.AuthService - 2FA required: email=admin@bsep.com
+2026-06-12 11:04:55 [https-jsse-nio-8443-exec-8] INFO  c.example.bsep.service.AuthService - Login attempt: email=admin@bsep.com
+2026-06-12 11:04:55 [https-jsse-nio-8443-exec-8] WARN  c.example.bsep.service.AuthService - Login failed - invalid 2FA code: email=admin@bsep.com
+2026-06-12 11:05:14 [https-jsse-nio-8443-exec-1] INFO  c.example.bsep.service.AuthService - Login attempt: email=admin@bsep.com
+2026-06-12 11:05:15 [https-jsse-nio-8443-exec-1] INFO  c.example.bsep.service.AuthService - Login successful: email=admin@bsep.com
+2026-06-12 16:44:31 [https-jsse-nio-8443-exec-10] INFO  c.example.bsep.service.AuthService - Login attempt: email=admin@bsep.com
+2026-06-12 16:44:31 [https-jsse-nio-8443-exec-10] INFO  c.example.bsep.service.AuthService - 2FA required: email=admin@bsep.com
+2026-06-12 16:44:43 [https-jsse-nio-8443-exec-3] INFO  c.example.bsep.service.AuthService - Login attempt: email=admin@bsep.com
+2026-06-12 16:44:43 [https-jsse-nio-8443-exec-3] INFO  c.example.bsep.service.AuthService - Login successful: email=admin@bsep.com
+2026-06-12 16:45:57 [https-jsse-nio-8443-exec-9] INFO  c.e.bsep.service.CertificateService - Issuing certificate: type=ROOT, CN=Test CA
+2026-06-12 16:45:57 [https-jsse-nio-8443-exec-9] INFO  c.e.bsep.service.CertificateService - Issuing certificate: type=ROOT, CN=Test CA
+2026-06-12 16:45:57 [https-jsse-nio-8443-exec-9] INFO  c.e.bsep.service.CertificateService - Certificate issued: id=6, serialNumber=267562152460648574103269834034008097301711970529, type=ROOT
+2026-06-12 16:46:43 [https-jsse-nio-8443-exec-6] INFO  c.example.bsep.service.AuthService - CA korisnik kreiran: email=reljajocicv2@gmail.com, organizacija=Slate n Frame
+2026-06-12 16:53:45 [https-jsse-nio-8443-exec-10] INFO  c.example.bsep.service.AuthService - Login attempt: email=admin@bsep.com
+2026-06-12 16:53:45 [https-jsse-nio-8443-exec-10] INFO  c.example.bsep.service.AuthService - 2FA required: email=admin@bsep.com
+2026-06-12 16:53:54 [https-jsse-nio-8443-exec-2] INFO  c.example.bsep.service.AuthService - Login attempt: email=admin@bsep.com
+2026-06-12 16:53:54 [https-jsse-nio-8443-exec-2] INFO  c.example.bsep.service.AuthService - Login successful: email=admin@bsep.com
+2026-06-12 16:54:16 [https-jsse-nio-8443-exec-4] INFO  c.example.bsep.service.AuthService - CA korisnik kreiran: email=natasaparoski474@gmail.com, organizacija=Vivi Baby
+2026-06-12 16:54:37 [https-jsse-nio-8443-exec-1] INFO  c.example.bsep.service.AuthService - Login attempt: email=natasaparoski474@gmail.com
+2026-06-12 16:54:37 [https-jsse-nio-8443-exec-1] INFO  c.example.bsep.service.AuthService - Login successful: email=natasaparoski474@gmail.com
+2026-06-12 16:54:55 [https-jsse-nio-8443-exec-3] INFO  c.example.bsep.service.AuthService - Lozinka promenjena: email=natasaparoski474@gmail.com
+2026-06-12 16:57:14 [https-jsse-nio-8443-exec-3] INFO  c.e.bsep.service.CertificateService - Issuing certificate: type=INTERMEDIATE, CN=First CA
+2026-06-12 16:57:14 [https-jsse-nio-8443-exec-3] INFO  c.e.bsep.service.CertificateService - Issuing certificate: type=INTERMEDIATE, CN=First CA
+2026-06-12 16:57:55 [https-jsse-nio-8443-exec-8] INFO  c.example.bsep.service.AuthService - Login attempt: email=admin@bsep.com
+2026-06-12 16:57:55 [https-jsse-nio-8443-exec-8] INFO  c.example.bsep.service.AuthService - 2FA required: email=admin@bsep.com
+2026-06-12 16:58:03 [https-jsse-nio-8443-exec-9] INFO  c.example.bsep.service.AuthService - Login attempt: email=admin@bsep.com
+2026-06-12 16:58:03 [https-jsse-nio-8443-exec-9] INFO  c.example.bsep.service.AuthService - Login successful: email=admin@bsep.com
+2026-06-12 17:03:39 [https-jsse-nio-8443-exec-6] INFO  c.e.bsep.service.CertificateService - Issuing certificate: type=ROOT, CN=Vivi Root
+2026-06-12 17:03:39 [https-jsse-nio-8443-exec-6] INFO  c.e.bsep.service.CertificateService - Issuing certificate: type=ROOT, CN=Vivi Root
+2026-06-12 17:03:40 [https-jsse-nio-8443-exec-6] INFO  c.e.bsep.service.CertificateService - Certificate issued: id=7, serialNumber=1060877947203398158863542805306509078289577416184, type=ROOT
+2026-06-12 17:03:58 [https-jsse-nio-8443-exec-4] INFO  c.example.bsep.service.AuthService - Login attempt: email=natasaparoski474@gmail.com
+2026-06-12 17:03:58 [https-jsse-nio-8443-exec-4] INFO  c.example.bsep.service.AuthService - Login successful: email=natasaparoski474@gmail.com
+2026-06-12 17:05:11 [https-jsse-nio-8443-exec-5] INFO  c.e.bsep.service.CertificateService - Issuing certificate: type=INTERMEDIATE, CN=Vivi intermediate
+2026-06-12 17:05:11 [https-jsse-nio-8443-exec-5] INFO  c.e.bsep.service.CertificateService - Issuing certificate: type=INTERMEDIATE, CN=Vivi intermediate
+2026-06-12 17:05:17 [https-jsse-nio-8443-exec-7] INFO  c.e.bsep.service.CertificateService - Issuing certificate: type=INTERMEDIATE, CN=Vivi intermediate
+2026-06-12 17:05:17 [https-jsse-nio-8443-exec-7] INFO  c.e.bsep.service.CertificateService - Issuing certificate: type=INTERMEDIATE, CN=Vivi intermediate
+2026-06-12 17:05:19 [https-jsse-nio-8443-exec-7] INFO  c.e.bsep.service.CertificateService - Certificate issued: id=8, serialNumber=1378899062273605119757748878007764774095722258804, type=INTERMEDIATE
+2026-06-12 17:08:59 [https-jsse-nio-8443-exec-10] INFO  c.example.bsep.service.AuthService - Login attempt: email=jocic.relja@gmail.com
+2026-06-12 17:08:59 [https-jsse-nio-8443-exec-10] INFO  c.example.bsep.service.AuthService - Login successful: email=jocic.relja@gmail.com
+2026-06-12 17:28:53 [https-jsse-nio-8443-exec-10] INFO  c.example.bsep.service.AuthService - Login attempt: email=natasaparoski474@gmail.com
+2026-06-12 17:28:54 [https-jsse-nio-8443-exec-10] INFO  c.example.bsep.service.AuthService - Login successful: email=natasaparoski474@gmail.com
+2026-06-12 17:43:00 [https-jsse-nio-8443-exec-1] INFO  c.e.bsep.service.CertificateService - Issuing certificate: type=INTERMEDIATE, CN=Vivi Server
+2026-06-12 17:43:00 [https-jsse-nio-8443-exec-1] INFO  c.e.bsep.service.CertificateService - Issuing certificate: type=INTERMEDIATE, CN=Vivi Server
+2026-06-12 17:43:10 [https-jsse-nio-8443-exec-3] INFO  c.e.bsep.service.CertificateService - Issuing certificate: type=INTERMEDIATE, CN=Vivi Server
+2026-06-12 17:43:10 [https-jsse-nio-8443-exec-3] INFO  c.e.bsep.service.CertificateService - Issuing certificate: type=INTERMEDIATE, CN=Vivi Server
+2026-06-12 17:43:14 [https-jsse-nio-8443-exec-5] INFO  c.e.bsep.service.CertificateService - Issuing certificate: type=INTERMEDIATE, CN=Vivi Server
+2026-06-12 17:43:14 [https-jsse-nio-8443-exec-5] INFO  c.e.bsep.service.CertificateService - Issuing certificate: type=INTERMEDIATE, CN=Vivi Server
+2026-06-12 17:44:23 [https-jsse-nio-8443-exec-6] INFO  c.e.bsep.service.CertificateService - Issuing certificate: type=INTERMEDIATE, CN=Vivi Server
+2026-06-12 17:44:23 [https-jsse-nio-8443-exec-6] INFO  c.e.bsep.service.CertificateService - Issuing certificate: type=INTERMEDIATE, CN=Vivi Server
+2026-06-12 17:45:27 [https-jsse-nio-8443-exec-7] INFO  c.e.bsep.service.CertificateService - Issuing certificate: type=INTERMEDIATE, CN=api.vivibaby.com
+2026-06-12 17:45:27 [https-jsse-nio-8443-exec-7] INFO  c.e.bsep.service.CertificateService - Issuing certificate: type=INTERMEDIATE, CN=api.vivibaby.com
+2026-06-12 17:45:28 [https-jsse-nio-8443-exec-7] INFO  c.e.bsep.service.CertificateService - Certificate issued: id=9, serialNumber=580655326896391724459164631093157937214929202311, type=INTERMEDIATE

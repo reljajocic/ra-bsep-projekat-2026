@@ -6,6 +6,11 @@ export const certificateService = {
     return response.data
   },
 
+  async getIssuers() {
+    const response = await api.get('/certificates/issuers')
+    return response.data
+  },
+
   async getById(id) {
     const response = await api.get(`/certificates/${id}`)
     return response.data

@@ -10,6 +10,41 @@ export const authService = {
     return response.data
   },
 
+  mustChangePassword() {
+    return this.getUser()?.mustChangePassword === true
+  },
+
+  async changePassword(oldPassword, newPassword) {
+    const res = await api.post('/auth/change-password', { oldPassword, newPassword })
+    // posle promene vise ne mora da menja
+    const user = this.getUser()
+    if (user) {
+      user.mustChangePassword = false
+      localStorage.setItem('user', JSON.stringify(user))
+    }
+    return res.data
+  },
+
+  async createCaUser(data) {
+    const res = await api.post('/admin/ca-users', data)
+    return res.data
+  },
+
+  async getCaUsers() {
+    const res = await api.get('/admin/ca-users')
+    return res.data
+  },
+
+  async register(data) {
+    const response = await api.post('/auth/register', data)
+    return response.data
+  },
+
+  async activate(token) {
+    const response = await api.get('/auth/activate', { params: { token } })
+    return response.data
+  },
+
   logout() {
     localStorage.removeItem('token')
     localStorage.removeItem('user')
@@ -23,6 +58,14 @@ export const authService = {
 
   isLoggedIn() {
     return !!localStorage.getItem('token')
+  },
+
+  getRole() {
+    return this.getUser()?.role || null
+  },
+
+  isAdmin() {
+    return this.getRole() === 'ADMIN'
   },
 
   async getSessions() {
