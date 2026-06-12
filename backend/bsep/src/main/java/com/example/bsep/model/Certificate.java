@@ -72,6 +72,12 @@ public class Certificate {
     @JoinColumn(name = "issuer_certificate_id")
     private Certificate issuerCertificate;
 
+    // Email korisnika koji poseduje/je zatrazio sertifikat (za kontrolu pristupa)
+    private String ownerEmail;
+
+    // Organizacija (lanac) kojoj sertifikat pripada - CA korisnik pristupa samo svojoj
+    private String organization;
+
     @Column(nullable = false)
     private LocalDateTime createdAt;
 

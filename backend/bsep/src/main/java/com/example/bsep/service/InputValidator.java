@@ -52,6 +52,25 @@ public class InputValidator {
         }
     }
 
+    // Minimalni zahtevi za lozinku (estimator jacine je na frontendu)
+    public void validatePassword(String password) {
+        if (password == null || password.length() < 8) {
+            throw new IllegalArgumentException("Lozinka mora imati najmanje 8 karaktera");
+        }
+        if (!password.matches(".*[A-Z].*")) {
+            throw new IllegalArgumentException("Lozinka mora sadržati veliko slovo");
+        }
+        if (!password.matches(".*[a-z].*")) {
+            throw new IllegalArgumentException("Lozinka mora sadržati malo slovo");
+        }
+        if (!password.matches(".*[0-9].*")) {
+            throw new IllegalArgumentException("Lozinka mora sadržati cifru");
+        }
+        if (!password.matches(".*[^A-Za-z0-9].*")) {
+            throw new IllegalArgumentException("Lozinka mora sadržati specijalni karakter");
+        }
+    }
+
     public void validateValidityDays(int days) {
         if (days < 1 || days > 7300) {
             throw new IllegalArgumentException("Trajanje mora biti izmedju 1 i 7300 dana");

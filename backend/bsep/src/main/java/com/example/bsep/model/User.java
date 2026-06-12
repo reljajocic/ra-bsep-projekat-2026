@@ -25,6 +25,7 @@ public class User {
 
     private String firstName;
     private String lastName;
+    private String organization;
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
@@ -35,4 +36,8 @@ public class User {
     private String totpSecret;
 
     private boolean totpEnabled = false;
+
+    // CA korisnik mora da promeni podrazumevanu lozinku pri prvom pristupu
+    @Column(nullable = false, columnDefinition = "boolean default false")
+    private boolean mustChangePassword = false;
 }

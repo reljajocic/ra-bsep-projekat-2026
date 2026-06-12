@@ -32,6 +32,32 @@ public class AuthController {
         return ResponseEntity.ok(response);
     }
 
+    @PostMapping("/register")
+    public ResponseEntity<Map<String, String>> register(@RequestBody Map<String, String> body) {
+        authService.register(
+                body.get("email"),
+                body.get("password"),
+                body.get("firstName"),
+                body.get("lastName"),
+                body.get("organization")
+        );
+        return ResponseEntity.ok(Map.of("message",
+                "Registracija uspešna. Proverite email za aktivacioni link."));
+    }
+
+    @GetMapping("/activate")
+    public ResponseEntity<Map<String, String>> activate(@RequestParam String token) {
+        authService.activate(token);
+        return ResponseEntity.ok(Map.of("message", "Nalog je uspešno aktiviran. Možete se prijaviti."));
+    }
+
+    @PostMapping("/change-password")
+    public ResponseEntity<Map<String, String>> changePassword(@RequestBody Map<String, String> body,
+                                                              @AuthenticationPrincipal String email) {
+        authService.changePassword(email, body.get("oldPassword"), body.get("newPassword"));
+        return ResponseEntity.ok(Map.of("message", "Lozinka uspešno promenjena."));
+    }
+
     @GetMapping("/sessions")
     public ResponseEntity<List<SessionToken>> getSessions(@AuthenticationPrincipal String email) {
         return ResponseEntity.ok(authService.getActiveSessions(email));

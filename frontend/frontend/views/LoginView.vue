@@ -24,6 +24,7 @@
           {{ loading ? 'Prijava...' : 'Prijavi se' }}
         </button>
       </form>
+      <p class="link"><router-link to="/register">Nemaš nalog? Registruj se</router-link></p>
     </div>
   </div>
 </template>
@@ -127,5 +128,10 @@ button:disabled {
   font-size: 0.8rem;
   color: #888;
   margin-top: 0.3rem;
+}
+.link {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
 }
 </style>

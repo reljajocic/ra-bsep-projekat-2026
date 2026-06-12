@@ -1,0 +1,270 @@
+2026-06-09 18:26:45 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 43893 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 18:26:45 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 18:26:47 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 18:26:49 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 18:26:49 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 4.882 seconds (process running for 5.807)
+2026-06-09 18:35:42 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55s283ms).
+2026-06-09 19:03:00 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 48459 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 19:03:00 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 19:03:02 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 19:03:04 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 19:03:05 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 4.828 seconds (process running for 5.722)
+2026-06-09 19:09:16 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m13s951ms).
+2026-06-09 19:16:36 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m50s112ms).
+2026-06-09 19:24:26 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m19s247ms).
+2026-06-09 19:31:41 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 49067 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 19:31:41 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 19:31:43 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 19:31:45 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 19:31:45 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 4.75 seconds (process running for 5.59)
+2026-06-09 19:32:38 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 49129 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 19:32:38 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 19:32:39 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 19:32:41 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 19:32:41 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 4.551 seconds (process running for 5.414)
+2026-06-09 20:07:52 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 49760 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 20:07:52 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 20:07:54 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 20:07:56 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 20:07:56 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 4.724 seconds (process running for 5.705)
+2026-06-09 20:09:12 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 49810 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 20:09:12 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 20:09:13 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 20:09:15 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 20:09:16 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 4.983 seconds (process running for 5.756)
+2026-06-09 20:17:11 [https-jsse-nio-8443-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2026-06-09 20:17:12 [https-jsse-nio-8443-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2026-06-09 20:17:33 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 50011 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 20:17:33 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 20:17:35 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 20:17:37 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 20:17:37 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 4.628 seconds (process running for 5.396)
+2026-06-09 20:19:05 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 50495 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 20:19:05 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 20:19:06 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 20:19:08 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 20:19:09 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 4.69 seconds (process running for 5.455)
+2026-06-09 20:20:25 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 50559 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 20:20:25 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 20:20:27 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 20:20:28 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 20:20:29 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 4.777 seconds (process running for 5.547)
+2026-06-09 20:29:45 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 50667 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 20:29:45 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 20:29:47 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 20:29:49 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 20:29:49 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 4.566 seconds (process running for 5.345)
+2026-06-09 20:34:25 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m38s119ms).
+2026-06-09 20:50:10 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m15s93ms).
+2026-06-09 21:42:27 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m46s492ms).
+2026-06-09 22:09:06 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 51385 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 22:09:06 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 22:09:08 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2026-06-09 22:09:08 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:622)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.example.bsep.BsepApplication.main(BsepApplication.java:10)
+Caused by: java.lang.IllegalStateException: Unable to create key store: Could not load store from 'classpath:https-keystore.p12'
+	at org.springframework.boot.ssl.jks.JksSslStoreBundle.createKeyStore(JksSslStoreBundle.java:112)
+	at org.springframework.boot.ssl.jks.JksSslStoreBundle.lambda$new$0(JksSslStoreBundle.java:75)
+	at org.springframework.util.function.SingletonSupplier.get(SingletonSupplier.java:106)
+	at org.springframework.boot.ssl.jks.JksSslStoreBundle.getKeyStore(JksSslStoreBundle.java:81)
+	at org.springframework.boot.web.server.WebServerSslBundle.createKeyStore(WebServerSslBundle.java:157)
+	at org.springframework.boot.web.server.WebServerSslBundle.createStoreBundle(WebServerSslBundle.java:147)
+	at org.springframework.boot.web.server.WebServerSslBundle.get(WebServerSslBundle.java:142)
+	at org.springframework.boot.web.server.AbstractConfigurableWebServerFactory.getSslBundle(AbstractConfigurableWebServerFactory.java:198)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.customizeSsl(TomcatServletWebServerFactory.java:384)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.customizeConnector(TomcatServletWebServerFactory.java:360)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:209)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	... 8 common frames omitted
+Caused by: java.lang.IllegalStateException: Could not load store from 'classpath:https-keystore.p12'
+	at org.springframework.boot.ssl.jks.JksSslStoreBundle.loadKeyStore(JksSslStoreBundle.java:140)
+	at org.springframework.boot.ssl.jks.JksSslStoreBundle.createKeyStore(JksSslStoreBundle.java:107)
+	... 20 common frames omitted
+Caused by: java.io.FileNotFoundException: class path resource [https-keystore.p12] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:215)
+	at org.springframework.boot.ssl.jks.JksSslStoreBundle.loadKeyStore(JksSslStoreBundle.java:135)
+	... 21 common frames omitted
+2026-06-09 22:13:04 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 51432 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 22:13:04 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 22:13:06 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 22:13:07 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 22:13:08 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 4.973 seconds (process running for 5.746)
+2026-06-09 22:13:29 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 51465 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 22:13:29 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 22:13:31 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 22:13:32 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 22:13:33 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 4.431 seconds (process running for 5.196)
+2026-06-09 22:14:36 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 51500 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 22:14:36 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 22:14:38 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 22:14:40 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 22:14:40 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 4.443 seconds (process running for 5.192)
+2026-06-09 22:17:01 [https-jsse-nio-8443-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2026-06-09 22:34:18 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 52457 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-09 22:34:18 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 22:34:20 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 22:34:22 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09 22:34:23 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 5.006 seconds (process running for 5.808)
+2026-06-10 14:49:39 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 61658 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-10 14:49:39 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-10 14:49:42 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-10 14:49:44 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-10 14:49:45 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 6.532 seconds (process running for 7.689)
+2026-06-10 14:55:59 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 61928 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-10 14:55:59 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-10 14:56:01 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-10 14:56:03 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-10 14:56:04 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 6.076 seconds (process running for 6.853)
+2026-06-10 14:57:13 [https-jsse-nio-8443-exec-8] INFO  c.e.bsep.service.KeyStoreService - KeyStore created: path=src/main/resources/keystores/cert_fbfa83d4-cb20-486a-bc4b-4fe3cac05405.p12, alias=cert_fbfa83d4-cb20-486a-bc4b-4fe3cac05405
+2026-06-10 15:10:10 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 62439 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-10 15:10:10 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-10 15:10:12 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-10 15:10:13 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-10 15:10:14 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 4.712 seconds (process running for 5.552)
+2026-06-10 15:10:43 [https-jsse-nio-8443-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: Naziv sajta sadrzi nedozvoljene znakove] with root cause
+java.lang.IllegalArgumentException: Naziv sajta sadrzi nedozvoljene znakove
+	at com.example.bsep.service.InputValidator.validateSafeText(InputValidator.java:41)
+	at com.example.bsep.service.PasswordManagerService.createEntry(PasswordManagerService.java:32)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.example.bsep.service.PasswordManagerService$$SpringCGLIB$$0.createEntry(<generated>)
+	at com.example.bsep.controller.PasswordManagerController.createEntry(PasswordManagerController.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:370)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at com.example.bsep.security.JwtAuthFilter.doFilterInternal(JwtAuthFilter.java:70)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1797)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-06-10 15:14:10 [https-jsse-nio-8443-exec-6] INFO  c.e.b.service.PasswordManagerService - Creating password entry: site=mail, admin=admin@bsep.com
+2026-06-10 15:14:10 [https-jsse-nio-8443-exec-6] INFO  c.e.b.service.PasswordManagerService - Password entry created: id=1, site=mail
+2026-06-10 15:14:31 [https-jsse-nio-8443-exec-4] INFO  c.e.b.service.PasswordManagerService - Creating password entry: site=unlimited.rs, admin=admin@bsep.com
+2026-06-10 15:14:31 [https-jsse-nio-8443-exec-4] INFO  c.e.b.service.PasswordManagerService - Password entry created: id=2, site=unlimited.rs
+2026-06-10 19:13:46 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 65261 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-10 19:13:46 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-10 19:14:54 [main] INFO  com.example.bsep.BsepApplication - Starting BsepApplication using Java 21.0.5 with PID 65334 (/Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep/target/classes started by reljajocic in /Users/reljajocic/Documents/Fakultet/BSEP/projekat/ra-bsep-projekat-2026/backend/bsep)
+2026-06-10 19:14:54 [main] INFO  com.example.bsep.BsepApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-10 19:14:56 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-10 19:14:57 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2026-06-10 19:14:57 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - constraint "uk6q9nsb665s9f8qajm3j07kd1e" of relation "verification_tokens" does not exist, skipping
+2026-06-10 19:14:58 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-10 19:14:59 [main] INFO  com.example.bsep.BsepApplication - Started BsepApplication in 5.084 seconds (process running for 5.882)
+2026-06-10 19:15:56 [https-jsse-nio-8443-exec-7] WARN  c.example.bsep.service.EmailService - SMTP nije konfigurisan - email za jocic.relja@gmail.com se ne salje. Link: https://localhost:5173/activate?token=66134f20-b69c-410f-a2a9-c7cb73a50eee
+2026-06-10 19:21:42 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s460ms).
