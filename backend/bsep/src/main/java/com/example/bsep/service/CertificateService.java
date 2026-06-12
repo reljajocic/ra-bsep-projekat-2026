@@ -46,6 +46,7 @@ public class CertificateService {
     private final KeyStoreService keyStoreService;
 
     private static final Logger log = LoggerFactory.getLogger(CertificateService.class);
+    private final InputValidator validator;
 
     static {
         Security.addProvider(new BouncyCastleProvider());
@@ -57,6 +58,18 @@ public class CertificateService {
                                         Long issuerCertificateId, int validityDays,
                                         String keyUsage, String extendedKeyUsage,
                                         String csrPem) throws Exception {
+
+        // Validacija unosa (preskace se za CSR jer podaci dolaze iz potpisanog zahteva)
+        if (csrPem == null || csrPem.isBlank()) {
+            validator.validateRequired(subjectCN, "Common Name");
+            validator.validateSafeText(subjectCN, "Common Name");
+            validator.validateSafeText(subjectO, "Organization");
+            validator.validateSafeText(subjectOU, "Organizational Unit");
+            validator.validateCountry(subjectC);
+        }
+        validator.validateValidityDays(validityDays);
+
+        log.info("Issuing certificate: type={}, CN={}", type, subjectCN);
 
         log.info("Issuing certificate: type={}, CN={}", type, subjectCN);
 

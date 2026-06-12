@@ -61,4 +61,16 @@
         <appender-ref ref="FILE"/>
     </root>
 
+    <!-- Bezbednosni logovi - auth i security paketi -->
+    <logger name="com.example.bsep.service.AuthService" level="INFO" additivity="false">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="SECURITY_FILE"/>
+    </logger>
+
+    <!-- Sertifikatske operacije su bezbednosno znacajne -->
+    <logger name="com.example.bsep.service.CertificateService" level="INFO" additivity="false">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="SECURITY_FILE"/>
+    </logger>
+
 </configuration>
